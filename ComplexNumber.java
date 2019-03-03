@@ -1,8 +1,9 @@
 /**
- * @author      Cleo De Rocco and Justin Gohde <justin.gohde@trinityschoolnyc.org>
- * @version     2.0
- * @since       2019-2-12
+Introduction to Java demo for HackTrin VI, by Cleo de Rocco and Rifat Islam
  */
+import java.awt.Graphics;
+
+
 public class ComplexNumber {
 
 private double a;
@@ -303,11 +304,13 @@ public static void assertDoublesAreEqual(double expected, double actual, String 
        System.out.println("++++++++");
       }
 
+
 /**
 * A tester method
 * @param args
 */
 public static void main(String[] args) {
+
 
 ComplexNumber basic = new ComplexNumber(2,3);
 assertStringsAreEqual(basic.toString(), "2.0+3.0i", "subtract does not work");
